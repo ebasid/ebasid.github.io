@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Gallery Kucing - LPK Arum</title>
+  <style>
+    body {
+      background: #eee;
+      text-align: center;
+    }
+
+    footer {
+      border: 1px solid black;
+      margin-top: 18px;
+      padding: 8px;
+      background: black;
+      color: white;
+    }
+
+    nav ul {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav ul li {
+      width: 33%;
+      list-style: none;
+      background: white;
+      margin: 12px;
+      padding: 8px;
+      cursor: pointer;
+      border-radius: 20px 0px;
+    }
+
+    nav ul li:hover {
+      background: black;
+      color: white;
+    }
+
+    .col-4 {
+      width: 33%;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 12px;
+      border: 2px dotted grey;
+      margin: 16px;
+    }
+
+    content {
+      display: flex;
+      margin: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Gallery</li>
+    </ul>
+  </nav>
+  <header>
+    <img src="logo.png" />
+    <h1>LPK Arum - Gallery Kucing</h1>
+  </header>
+
+  <content>
+
+    <div class="col-4 card">
+      <img src="http://placekitten.com/g/200/300" />
+    </div>
+    <div class="col-4 card">
+      <img src="http://placekitten.com/g/200/300" />
+    </div>
+    <div class="col-4 card">
+      <img src="http://placekitten.com/g/200/300" />
+    </div>
+
+  </content>
+
+  <footer>
+    Copyright @2023 - LPK Arum
+  </footer>
+
+</body>
+
+</html>
